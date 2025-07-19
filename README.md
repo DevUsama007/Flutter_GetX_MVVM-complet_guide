@@ -1,16 +1,30 @@
-# app_using_getx
+# 🚀 Flutter GetX MVVM Masterclass
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-3.22-blue?logo=flutter)
+![GetX](https://img.shields.io/badge/State_Management-GetX-red)
+![Architecture](https://img.shields.io/badge/Pattern-MVVM-purple)
 
-## Getting Started
+A production-grade implementation showcasing **GetX** with **MVVM** architecture, covering everything from basic state management to advanced patterns.
 
-This project is a starting point for a Flutter application.
+## 🌟 Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Reactive State Management**
+  - `.obs` observables & `Obx` widgets
+  - `GetBuilder` for granular control
+  - Workers for reactive programming
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Dependency Injection**
+  - `Get.put()`/`Get.lazyPut()`
+  - Bindings for route-level DI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Route Management**
+  - Named routes with transitions
+  - Middleware (auth/redirect)
+  - Nested navigation
+
+- **API Layer**
+  - `GetConnect` with interceptors
+  - Repository pattern
+  - Full error handling
+
+## 🏗 Project Structure
