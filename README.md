@@ -28,3 +28,36 @@ A production-grade implementation showcasing **GetX** with **MVVM** architecture
   - Full error handling
 
 ## 🏗 Project Structure
+lib/
+├── app/
+│ ├── bindings/ # DI configurations
+│ ├── modules/ # Feature organization
+│ └── routes/ # Navigation setup
+├── core/
+│ ├── exceptions/ # Custom error handling
+│ └── widgets/ # Reusable components
+├── data/
+│ ├── models/ # DTOs/Entities
+│ └── repositories/ # API clients
+└── presentation/
+├── views/ # UI Layer
+└── view_models/ # Business Logic
+
+## 🛠 Quick Start
+```bash
+git clone https://github.com/yourusername/flutter-getx-mvvm-masterclass.git
+flutter pub get
+flutter run
+📚 Learning Path
+1. GetX Official Docs
+
+2. MVVM with GetX
+
+3. GetConnect Tutorial
+
+🤝 Contribution
+1. PRs welcome! Follow the:
+
+2. GetX Style Guide
+
+3. Dart Best Practices
