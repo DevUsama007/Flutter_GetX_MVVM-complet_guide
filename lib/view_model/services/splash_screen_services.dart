@@ -1,0 +1,3 @@
+class SplashScreenServices {
+  islogin() {}
+}
